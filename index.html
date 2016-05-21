@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>    
+    
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>    
+    
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+  <script src="./resources/js/app.js"></script>
+
+</head>
+
+<body>
+    
+<!--	<iframe src="https://aws-support-dashboard.amazon.com/" style="display:none;"></iframe>-->
+    
+    <div id="main" class="container">
+                
+        <form role="form" style="margin-top: 100px;">
+          <div class="form-group">
+            <label for="account">Account ID:</label>
+            <input type="text" class="form-control" id="accountID">
+          </div>
+          <div class="form-group">
+            <label for="environment">Environment Name:</label>
+            <input type="text" class="form-control" id="envName">
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="us-east-1">us-east-1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="us-west-1">us-west-1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="us-west-2">us-west-2</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="eu-west-1">eu-west-1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="eu-central-1">eu-central-1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="ap-southeast-1">ap-southeast-1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="ap-southeast-2">ap-southeast-2</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="ap-northeast-1">ap-northeast-1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="sa-east-1">sa-east-1</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="regionRadio" value="ap-northeast-1">ap-northeast-1</label>
+          </div>     
+          <button type="submit" class="btn btn-primary fixed-button-size right-margin" id="displayBtn">Display</button>
+          <button type="submit" class="btn btn-success fixed-button-size right-margin" id="downloadBtn">Download</button>
+          <button type="submit" class="btn btn-info fixed-button-size" id="oneClickBtn">1-Click!</button>
+        </form>
+        
+    </div>
+    
+</body>
+
+
+</html>
